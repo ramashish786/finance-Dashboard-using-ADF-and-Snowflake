@@ -12,14 +12,20 @@ I created two link services one for the *storage account* and the other for *Sno
 I have created four datasets for unclean data, clean data, a snowflake table, and one to get which connects to clean data.<be> 
 ![s6](https://github.com/user-attachments/assets/07e184d6-c3ad-4947-bb65-c0a934d4bbeb)
 Below is the *pipeline1* that cleans the data, here I used a source, an unpivot, and a sink to perform the cleaning.<br>
+
 ![s7](https://github.com/user-attachments/assets/370abea7-9f6a-49a0-8bcb-f68f337e0913)
+
+I ungrouped the data on the *Type* and *Component* columns.
 
 ![s8](https://github.com/user-attachments/assets/c4a0b335-4818-4ef5-8c07-eb635119cc7c)
 ![s9](https://github.com/user-attachments/assets/06777aa2-b5e4-4716-bc4b-bdefa16066ce)
+I created a table called finance_table with columns Type, Component, Entdate, and Value.
 ![s10](https://github.com/user-attachments/assets/07297b91-b9f7-4ab9-a237-e023cddc055c)
+I Debugged the Pipeline.
 ![s11](https://github.com/user-attachments/assets/ca0eb703-c65c-4727-98a4-52246e517dd5)
 ![s12](https://github.com/user-attachments/assets/76afa7d4-e753-4c53-ac4e-9eb39ec8868d)
 ![s13](https://github.com/user-attachments/assets/d381e9b5-8cdf-4407-8f67-fdbf2799307d)
+After running debug, we got the *data.csv* file in *cleaneddata* folder.
 ![s14](https://github.com/user-attachments/assets/e48f4633-0948-4b87-b955-1ac0913dec6a)
 ![s15](https://github.com/user-attachments/assets/39cbe099-4a20-4622-af56-03689b082e21)
 ![s16](https://github.com/user-attachments/assets/8b1bc027-8d72-4a47-baf6-0e3bd1d95a87)
