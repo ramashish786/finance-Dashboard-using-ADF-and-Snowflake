@@ -2,14 +2,18 @@
 
 This is our data which needs to be processed further to get the Date and Value columns that are required for our dashboard.<br>
 ![s1](https://github.com/user-attachments/assets/5c83b42c-2aa3-4cb3-8835-02c61c4bcd61)
-Now we need to create Azure Factory and storage as follows. <br>
+Now we need to create an Azure Factory and storage account as follows. <br>
 ![s2](https://github.com/user-attachments/assets/c03cd39e-f0c8-4a67-a2c7-841f5255c763)
 Here I have created two folders *rawdata* where I put uncleaned data and *cleaneddata* where I put cleaned data after clean up.<br>
 ![s3](https://github.com/user-attachments/assets/62b8bae5-9d83-4db7-88ea-2fa31d645005)
+I created two link services one for the *storage account* and the other for *Snowflake* .<be>
 ![s4](https://github.com/user-attachments/assets/89ec7c00-31c8-404a-b58c-307434c2bcaa)
 ![s5](https://github.com/user-attachments/assets/40200f10-430a-4235-a8ff-030ceb15144a)
+I have created four datasets for unclean data, clean data, a snowflake table, and one to get which connects to clean data.<be> 
 ![s6](https://github.com/user-attachments/assets/07e184d6-c3ad-4947-bb65-c0a934d4bbeb)
+Below is the *pipeline1* that cleans the data, here I used a source, an unpivot, and a sink to perform the cleaning.<br>
 ![s7](https://github.com/user-attachments/assets/370abea7-9f6a-49a0-8bcb-f68f337e0913)
+
 ![s8](https://github.com/user-attachments/assets/c4a0b335-4818-4ef5-8c07-eb635119cc7c)
 ![s9](https://github.com/user-attachments/assets/06777aa2-b5e4-4716-bc4b-bdefa16066ce)
 ![s10](https://github.com/user-attachments/assets/07297b91-b9f7-4ab9-a237-e023cddc055c)
