@@ -61,7 +61,9 @@ I already created a dashboard, then I had to connect the Snowflake table to Powe
 ![s25](https://github.com/user-attachments/assets/6d912a1f-e6d6-419b-8920-57c379ff9edf)
 ![s26](https://github.com/user-attachments/assets/bcc45ed5-0308-4715-9da6-b0d9524cb319)
 
-Now let's change the column name according to the measures I created. All Done !!!
+Now let's change the column name according to the measures I created.
+
+*We are All Done !!!*
 
 ![s27](https://github.com/user-attachments/assets/a7b869ce-a783-4da1-8dce-04cac0490dcd)
 
