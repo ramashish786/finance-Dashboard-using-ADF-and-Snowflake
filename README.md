@@ -25,21 +25,28 @@ I Debugged the Pipeline.
 ![s11](https://github.com/user-attachments/assets/ca0eb703-c65c-4727-98a4-52246e517dd5)
 ![s12](https://github.com/user-attachments/assets/76afa7d4-e753-4c53-ac4e-9eb39ec8868d)
 ![s13](https://github.com/user-attachments/assets/d381e9b5-8cdf-4407-8f67-fdbf2799307d)
-After running debug, we got the *data.csv* file in *cleaneddata* folder.
+After running the debug, we got the *data.csv* file in the *cleaneddata* folder.
 ![s14](https://github.com/user-attachments/assets/e48f4633-0948-4b87-b955-1ac0913dec6a)
 ![s15](https://github.com/user-attachments/assets/39cbe099-4a20-4622-af56-03689b082e21)
+Now let's debug pipeline2
 ![s16](https://github.com/user-attachments/assets/8b1bc027-8d72-4a47-baf6-0e3bd1d95a87)
 ![s17](https://github.com/user-attachments/assets/72b85404-60d3-4065-a089-df2b28fb2b01)
 ![s18](https://github.com/user-attachments/assets/8db6eabe-782c-4acf-8f46-99b77a1e49bc)
+Let's go to Snowflake, after running the *select* query we can see that data have been copied to finance_table.
 ![s19](https://github.com/user-attachments/assets/b34d3866-d5ec-42f6-8944-85492aee19e2)
+I already created a dashboard, now we have to connect the Snowflake table to Power BI and change the data source from Power BI.
 ![s20](https://github.com/user-attachments/assets/d3013cfb-0056-4021-80c0-a2e662f218c4)
 ![s22](https://github.com/user-attachments/assets/f01c10f3-a18e-409a-8486-f32d13937f13)
 ![s23](https://github.com/user-attachments/assets/6d3f7f6e-5158-4aec-bb8a-5a87515dbe91)
 ![s24](https://github.com/user-attachments/assets/1a67a08c-37b3-4b64-a198-b8dc0fe58763)
 ![s25](https://github.com/user-attachments/assets/6d912a1f-e6d6-419b-8920-57c379ff9edf)
 ![s26](https://github.com/user-attachments/assets/bcc45ed5-0308-4715-9da6-b0d9524cb319)
+Now let's change the column name according to the measures I created. All Done !!!
 ![s27](https://github.com/user-attachments/assets/a7b869ce-a783-4da1-8dce-04cac0490dcd)
+
+Let's check if add data in the snowflake table is reflected in Power BI or not
 ![s29](https://github.com/user-attachments/assets/95f6bbe0-e957-45d4-9da4-00becdc801c6)
+Yes, It is reflecting
 ![s30](https://github.com/user-attachments/assets/361a7428-8458-4eab-9552-3c1a9c973ad5)
 
 
