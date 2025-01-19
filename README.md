@@ -1,8 +1,10 @@
 ## Finance Dashboard
 
-This is our data which needs to be processed further to get the Date and Value columns that are required for our dashboard.
+This is our data which needs to be processed further to get the Date and Value columns that are required for our dashboard.<br>
 ![s1](https://github.com/user-attachments/assets/5c83b42c-2aa3-4cb3-8835-02c61c4bcd61)
+Now we need to create Azure Factory and storage as follows. <br>
 ![s2](https://github.com/user-attachments/assets/c03cd39e-f0c8-4a67-a2c7-841f5255c763)
+Here I have created two folders *rawdata* where I put uncleaned data and *cleaneddata* where I put cleaned data after clean up.<br>
 ![s3](https://github.com/user-attachments/assets/62b8bae5-9d83-4db7-88ea-2fa31d645005)
 ![s4](https://github.com/user-attachments/assets/89ec7c00-31c8-404a-b58c-307434c2bcaa)
 ![s5](https://github.com/user-attachments/assets/40200f10-430a-4235-a8ff-030ceb15144a)
