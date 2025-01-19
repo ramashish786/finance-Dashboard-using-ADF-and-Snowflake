@@ -1,5 +1,6 @@
 ## Finance Dashboard
 
+This is our data which needs to be processed further to get the Date and Value columns that are required for our dashboard.
 ![s1](https://github.com/user-attachments/assets/5c83b42c-2aa3-4cb3-8835-02c61c4bcd61)
 ![s2](https://github.com/user-attachments/assets/c03cd39e-f0c8-4a67-a2c7-841f5255c763)
 ![s3](https://github.com/user-attachments/assets/62b8bae5-9d83-4db7-88ea-2fa31d645005)
