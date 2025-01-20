@@ -1,5 +1,9 @@
 ## Finance Dashboard
 
+I used Blob Storage, Azure Data Factory, Snowflake, and Power BI. I built an ETL pipeline in ADF to get the raw data from the source, performed unpivot and stored the cleaned data at the destination. I created another pipeline to send the data to the Snowflake table from the container where clean data is stored. In the end, I created a Dashboard in Power BI.
+
+
+
 This is our data which needs to be processed further to get the Date and Value columns that are required for our dashboard.<br>
 ![s1](https://github.com/user-attachments/assets/5c83b42c-2aa3-4cb3-8835-02c61c4bcd61)
 
