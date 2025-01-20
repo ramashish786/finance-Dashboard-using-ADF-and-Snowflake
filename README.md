@@ -5,6 +5,7 @@ I used Blob Storage, Azure Data Factory, Snowflake, and Power BI. I built an ETL
 
 
 This is our data which needs to be processed further to get the Date and Value columns that are required for our dashboard.<br>
+
 ![s1](https://github.com/user-attachments/assets/5c83b42c-2aa3-4cb3-8835-02c61c4bcd61)
 
 Now we need to create an Azure Factory and storage account as follows. <br>
