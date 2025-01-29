@@ -58,7 +58,7 @@ Let's go to Snowflake, after running the *select* query we can see that data hav
 
 ![s19](https://github.com/user-attachments/assets/b34d3866-d5ec-42f6-8944-85492aee19e2)
 
-I already created a dashboard, then I had to connect the Snowflake table to Power BI and change the data source from Power BI.
+I had already created a dashboard, then I had to connect the Snowflake table to Power BI and change the data source from Power BI.
 ![s20](https://github.com/user-attachments/assets/d3013cfb-0056-4021-80c0-a2e662f218c4)
 ![s22](https://github.com/user-attachments/assets/f01c10f3-a18e-409a-8486-f32d13937f13)
 ![s23](https://github.com/user-attachments/assets/6d3f7f6e-5158-4aec-bb8a-5a87515dbe91)
@@ -72,7 +72,7 @@ Now let's change the column name according to the measures I created.
 
 ![s27](https://github.com/user-attachments/assets/a7b869ce-a783-4da1-8dce-04cac0490dcd)
 
-Let's check if I add data in the snowflake table is reflected in Power BI or not
+Let's check, if I add data in the snowflake table is it reflected in Power BI or not?
 
 ![s29](https://github.com/user-attachments/assets/95f6bbe0-e957-45d4-9da4-00becdc801c6)
 
